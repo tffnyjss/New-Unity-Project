@@ -9,6 +9,8 @@ public class Joystick : MonoBehaviour
     private bool touchStart= false;
     private Vector2 pointA;
     private Vector2 pointB;
+    public Transform circle;
+    public Transform outerCircle;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,11 +21,11 @@ public class Joystick : MonoBehaviour
     void Update()
     {
       if(Input.GetMouseButtonDown(0)){
-          pointA=Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,InputInput.mousePosition.y,Camera.main.transform.position.z));
+          pointA=Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,Input.mousePosition.y,Camera.main.transform.position.z));
       }  
       if(Input.GetMouseButton(0)){
           touchStart= true;
-          pointB=Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,InputInput.mousePosition.y,Camera.main.transform.position.z));
+          pointB=Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,Input.mousePosition.y,Camera.main.transform.position.z));
       }else{
           touchStart=false;
       }
