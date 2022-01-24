@@ -15,11 +15,11 @@ C:/Users/jtiff/OneDrive/Desktop/tecknack/New-Unity-Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57885
+59400
 Successfully changed project path to: C:/Users/jtiff/OneDrive/Desktop/tecknack/New-Unity-Project
 C:/Users/jtiff/OneDrive/Desktop/tecknack/New-Unity-Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 120.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 86.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.20f1 (41c4e627c95f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -35,92 +35,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004678 seconds.
+Registered in 0.005814 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 103.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 105.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.631 seconds
+- Completed reload, in  3.812 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4632ms)
-		BeginReloadAssembly (112ms)
+	ReloadAssembly (3812ms)
+		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1041ms)
-			LoadAssemblies (109ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (768ms)
+			LoadAssemblies (111ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (361ms)
+			SetupTypeCache (256ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (422ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (333ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (104ms)
-				BeforeProcessingInitializeOnLoad (20ms)
-				ProcessInitializeOnLoadAttributes (211ms)
-				ProcessInitializeOnLoadMethodAttributes (73ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006997 seconds.
+Registered in 0.005267 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 113.79 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 82.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.650 seconds
+- Completed reload, in  2.015 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2652ms)
-		BeginReloadAssembly (338ms)
+	ReloadAssembly (2016ms)
+		BeginReloadAssembly (302ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (2152ms)
-			LoadAssemblies (219ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1563ms)
+			LoadAssemblies (212ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (689ms)
+			SetupTypeCache (500ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (113ms)
-			SetupLoadedEditorAssemblies (836ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (589ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (114ms)
-				BeforeProcessingInitializeOnLoad (154ms)
-				ProcessInitializeOnLoadAttributes (510ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (350ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2149 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 96.7 MB.
 System memory in use after: 96.8 MB.
 
 Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2585.
-Total: 7.987400 ms (FindLiveObjects: 0.511300 ms CreateObjectMapping: 0.085600 ms MarkObjects: 7.212800 ms  DeleteObjects: 0.174700 ms)
+Total: 5.492400 ms (FindLiveObjects: 0.416600 ms CreateObjectMapping: 0.086900 ms MarkObjects: 4.877200 ms  DeleteObjects: 0.109800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,433 +135,17 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Tiny Fantasy Icons/All_Icons_512.psd
-  artifactKey: Guid(fd534221758505a408dba0f0c51d3434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/All_Icons_512.psd using Guid(fd534221758505a408dba0f0c51d3434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129bd14aa824fc261be44d3c61777d4b') in 0.188684 seconds 
-  Import took 0.200122 seconds .
+  path: Assets/Scenes/LvLOne.unity
+  artifactKey: Guid(5758f4e121b07ef4ab82f259740d130f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LvLOne.unity using Guid(5758f4e121b07ef4ab82f259740d130f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b495d3e1622d21ce57d7913d30aa16') in 0.023645 seconds 
+  Import took 0.031166 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.765795 seconds.
-  path: Assets/Tiny Fantasy Icons/Gems/Gems_Epic-_Diamond.png
-  artifactKey: Guid(44bbc142568db2a4a9315dd2e04965e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Gems/Gems_Epic-_Diamond.png using Guid(44bbc142568db2a4a9315dd2e04965e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2196f5209eea0a120de1d5f5b5392c44') in 0.127738 seconds 
-  Import took 0.139208 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000551 seconds.
-  path: Assets/Tiny Fantasy Icons/Gems/Gems_Epic-_Emerald.png
-  artifactKey: Guid(2ca50185c219c244ab5967e27e03fa83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Gems/Gems_Epic-_Emerald.png using Guid(2ca50185c219c244ab5967e27e03fa83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4133e418455d7d6aa6b5c0f723abf4') in 0.046043 seconds 
-  Import took 0.056382 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000737 seconds.
-  path: Assets/Tiny Fantasy Icons/Gems
-  artifactKey: Guid(832cb47ee70baed4eb8d057cb860a258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Gems using Guid(832cb47ee70baed4eb8d057cb860a258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956b7bb96af73d3a145ba66669753fd1') in 0.006196 seconds 
-  Import took 0.014645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000719 seconds.
-  path: Assets/Tiny Fantasy Icons/Gems/Gems_Tiny_Diamond.png
-  artifactKey: Guid(690788c1d1c4a0b42815f8d3ed42836d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Gems/Gems_Tiny_Diamond.png using Guid(690788c1d1c4a0b42815f8d3ed42836d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0735bfd06007acb1aa4b72ae9f5dd2cc') in 0.043822 seconds 
-  Import took 0.056584 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000588 seconds.
-  path: Assets/Tiny Fantasy Icons/Gems/Gems_Epic-_Ruby.png
-  artifactKey: Guid(87d4f93c6ec72ef4b96149231e09b831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Gems/Gems_Epic-_Ruby.png using Guid(87d4f93c6ec72ef4b96149231e09b831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad45f7f9bdd6e0e8ebd72033df49e435') in 0.048558 seconds 
-  Import took 0.060116 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000855 seconds.
-  path: Assets/Tiny Fantasy Icons/Gems/Gems_Tiny_Ruby.png
-  artifactKey: Guid(45d4727dc058ed64381565d2e925dd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Gems/Gems_Tiny_Ruby.png using Guid(45d4727dc058ed64381565d2e925dd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d5add3f7850285da20cd4a7c0deb38') in 0.039499 seconds 
-  Import took 0.051276 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000666 seconds.
-  path: Assets/Tiny Fantasy Icons/Gems/Gems_Medium_Emerald.png
-  artifactKey: Guid(d98ba6c8dfc10ff49ab4718504b5e571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Gems/Gems_Medium_Emerald.png using Guid(d98ba6c8dfc10ff49ab4718504b5e571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2534577ecb95edda808de6d85382808b') in 0.040352 seconds 
-  Import took 0.052314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000799 seconds.
-  path: Assets/Tiny Fantasy Icons/Gems/Gems_Large_Emerald.png
-  artifactKey: Guid(368bd3a787d8e0f408bb8f10ca9170fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Gems/Gems_Large_Emerald.png using Guid(368bd3a787d8e0f408bb8f10ca9170fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241e53495fd328b6abd61614200404dd') in 0.045131 seconds 
-  Import took 0.058353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000650 seconds.
-  path: Assets/Tiny Fantasy Icons/Gems/Gems_Huge_Emerald.png
-  artifactKey: Guid(0ca8271adf239c64893e9180b2e5f9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Gems/Gems_Huge_Emerald.png using Guid(0ca8271adf239c64893e9180b2e5f9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048c2aee763c2a5eafba54362678ac57') in 0.047456 seconds 
-  Import took 0.056846 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000620 seconds.
-  path: Assets/Tiny Fantasy Icons/Gems/Gems_Large_Diamond.png
-  artifactKey: Guid(b09b6948d349d5546a0f04e20dc08b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Gems/Gems_Large_Diamond.png using Guid(b09b6948d349d5546a0f04e20dc08b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd699ee4da37ea337502e62829fed584f') in 0.044457 seconds 
-  Import took 0.053560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000635 seconds.
-  path: Assets/Tiny Fantasy Icons/Gems/Gems_Huge_Ruby.png
-  artifactKey: Guid(ba4ae3cbdea049e4d9f044fabf711de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Gems/Gems_Huge_Ruby.png using Guid(ba4ae3cbdea049e4d9f044fabf711de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58df37a06c7e7010cb0708ccc7c4efd9') in 0.039891 seconds 
-  Import took 0.049381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000616 seconds.
-  path: Assets/Tiny Fantasy Icons/Gems/Gems_Large_Ruby.png
-  artifactKey: Guid(a5dbd3ba0df46db4c98a95569adb0ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Gems/Gems_Large_Ruby.png using Guid(a5dbd3ba0df46db4c98a95569adb0ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9b78a629b0181cc64a4f99fa13552e') in 0.042741 seconds 
-  Import took 0.055288 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000813 seconds.
-  path: Assets/Tiny Fantasy Icons/Gems/Gems_Small_Ruby.png
-  artifactKey: Guid(b61374776796f4847ad28e67c3606fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Gems/Gems_Small_Ruby.png using Guid(b61374776796f4847ad28e67c3606fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4662d294d03da4a7c340f5ee80d037') in 0.039719 seconds 
-  Import took 0.049951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000699 seconds.
-  path: Assets/Tiny Fantasy Icons/Gems/Gems_Huge_Diamond.png
-  artifactKey: Guid(264388b6c30f5074ab3754103732bf70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Gems/Gems_Huge_Diamond.png using Guid(264388b6c30f5074ab3754103732bf70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17965b7dd99b9366fd6ec54393c17ba') in 0.037574 seconds 
-  Import took 0.048944 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000964 seconds.
-  path: Assets/Tiny Fantasy Icons/Gems/Gems_Medium_Ruby.png
-  artifactKey: Guid(18842ba8f15b407489e899c2adc379e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Gems/Gems_Medium_Ruby.png using Guid(18842ba8f15b407489e899c2adc379e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028843c2e631d1eb2d313bd15cea67b2') in 0.034009 seconds 
-  Import took 0.043600 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000802 seconds.
-  path: Assets/Tiny Fantasy Icons/Gems/Gems_Medium_Diamond.png
-  artifactKey: Guid(7fc6e41758825f7498531b5a0e64bd7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Gems/Gems_Medium_Diamond.png using Guid(7fc6e41758825f7498531b5a0e64bd7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e552f2895e43cb47537bcc09753eeee') in 0.040955 seconds 
-  Import took 0.055692 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000849 seconds.
-  path: Assets/Tiny Fantasy Icons/Gems/Gems_Small_Emerald.png
-  artifactKey: Guid(75b4b1c4536432948ac7fb4e5dedc881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Gems/Gems_Small_Emerald.png using Guid(75b4b1c4536432948ac7fb4e5dedc881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e96a8593d14e0e6218cfd9c547e7b63') in 0.041274 seconds 
-  Import took 0.053057 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000931 seconds.
-  path: Assets/Tiny Fantasy Icons/Gems/Gems_Small_Diamond.png
-  artifactKey: Guid(18d8dedf927566f4c8cf15f49f9da174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Gems/Gems_Small_Diamond.png using Guid(18d8dedf927566f4c8cf15f49f9da174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99588b477c57009ca1dadd48449143cb') in 0.045050 seconds 
-  Import took 0.058195 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000575 seconds.
-  path: Assets/Tiny Fantasy Icons/Gems/Gems_Tiny_Emerald.png
-  artifactKey: Guid(05c2c1ee700b5594ca2adfcadf2f2e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Gems/Gems_Tiny_Emerald.png using Guid(05c2c1ee700b5594ca2adfcadf2f2e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426fb1cb04169741d0608562ecaf3850') in 0.038199 seconds 
-  Import took 0.049369 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.299918 seconds.
-  path: Assets/Tiny Fantasy Icons/Explosives
-  artifactKey: Guid(a96eecadaf9fb184f8ea219de6c86454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Explosives using Guid(a96eecadaf9fb184f8ea219de6c86454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74703803d0ca200583e7c7cc846e4db') in 0.011709 seconds 
-  Import took 0.024914 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000565 seconds.
-  path: Assets/Tiny Fantasy Icons/Explosives/Dinamite_A.png
-  artifactKey: Guid(9a132a4db73bbbe4c9fcdb7b573c7bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Explosives/Dinamite_A.png using Guid(9a132a4db73bbbe4c9fcdb7b573c7bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0a2976dac92b3e43cc2c2e9d7e00a0') in 0.041978 seconds 
-  Import took 0.054325 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001372 seconds.
-  path: Assets/Tiny Fantasy Icons/Explosives/Dinamite_B.png
-  artifactKey: Guid(6c6932be8b3b1b74884988cedf7c45e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Explosives/Dinamite_B.png using Guid(6c6932be8b3b1b74884988cedf7c45e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32e5199cd5cb3030186abeecd454da1') in 0.038170 seconds 
-  Import took 0.048007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000824 seconds.
-  path: Assets/Tiny Fantasy Icons/Explosives/Boom_A.png
-  artifactKey: Guid(6e8a5a55e38cd004d92820a65847d593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Explosives/Boom_A.png using Guid(6e8a5a55e38cd004d92820a65847d593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299b3d2e87c9abfe5729f22bda47b582') in 0.035441 seconds 
-  Import took 0.045534 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.026382 seconds.
-  path: Assets/Tiny Fantasy Icons/Potions
-  artifactKey: Guid(90d5eea845b66344bac127dbdcdba7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Potions using Guid(90d5eea845b66344bac127dbdcdba7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7de9e91d33d59ef0a56c897dbc95436') in 0.009171 seconds 
-  Import took 0.033133 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000739 seconds.
-  path: Assets/Tiny Fantasy Icons/Potions/Potion_Epic_Purple.png
-  artifactKey: Guid(6306a8a10030ddd4597a8104a15f25a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Epic_Purple.png using Guid(6306a8a10030ddd4597a8104a15f25a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e124596652a2088191a58889a1607685') in 0.059348 seconds 
-  Import took 0.070750 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000781 seconds.
-  path: Assets/Tiny Fantasy Icons/Potions/Potion_Large_Orange.png
-  artifactKey: Guid(3f9d263b1f5dd0d479c03b9b7d6e85ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Large_Orange.png using Guid(3f9d263b1f5dd0d479c03b9b7d6e85ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a207157df0f131442003015d910edccf') in 0.049630 seconds 
-  Import took 0.062806 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000745 seconds.
-  path: Assets/Tiny Fantasy Icons/Potions/Potion_Medium_Blue.png
-  artifactKey: Guid(74f3ff7910cd94f41af53cfb1413fa03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Medium_Blue.png using Guid(74f3ff7910cd94f41af53cfb1413fa03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e22988bb002b26d86d498e719fa16d3') in 0.034961 seconds 
-  Import took 0.046939 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002069 seconds.
-  path: Assets/Tiny Fantasy Icons/Potions/Potion_Large_Green.png
-  artifactKey: Guid(c057df6c2003a6941832e25cd82876fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Large_Green.png using Guid(c057df6c2003a6941832e25cd82876fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc58d00a48c7c478bbeff6a7ea9a360') in 0.040535 seconds 
-  Import took 0.053941 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000935 seconds.
-  path: Assets/Tiny Fantasy Icons/Potions/Potion_Epic_Green.png
-  artifactKey: Guid(44fba20d83700374cb6c2d735b24284a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Epic_Green.png using Guid(44fba20d83700374cb6c2d735b24284a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66350386a5ea5a1f63247a92f6af1e0') in 0.049630 seconds 
-  Import took 0.060705 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001072 seconds.
-  path: Assets/Tiny Fantasy Icons/Potions/Potion_Huge_Orange.png
-  artifactKey: Guid(70752464496b50a4ebd2bea4111c15c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Huge_Orange.png using Guid(70752464496b50a4ebd2bea4111c15c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58f7e118505b4b89d86a82d55931a44') in 0.045262 seconds 
-  Import took 0.057054 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000638 seconds.
-  path: Assets/Tiny Fantasy Icons/Potions/Potion_Large_Yellow.png
-  artifactKey: Guid(c5bc57633cfa0ee4cbbd1f4f4b8d63d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Large_Yellow.png using Guid(c5bc57633cfa0ee4cbbd1f4f4b8d63d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3da3232287d237dd9b3cf5831d6c9fe') in 0.040130 seconds 
-  Import took 0.050641 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000558 seconds.
-  path: Assets/Tiny Fantasy Icons/Potions/Potion_Huge_Red.png
-  artifactKey: Guid(520538baaf1e10c4197cbb202f5a649f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Huge_Red.png using Guid(520538baaf1e10c4197cbb202f5a649f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a34d0b85915b0a14bcf29053432ed9') in 0.042827 seconds 
-  Import took 0.052371 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001372 seconds.
-  path: Assets/Tiny Fantasy Icons/Potions/Potion_Medium_Green.png
-  artifactKey: Guid(39ff590519daa884fb25d400b68a52b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Medium_Green.png using Guid(39ff590519daa884fb25d400b68a52b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3e6d355e70ff306626acfe310eb078') in 0.045952 seconds 
-  Import took 0.059372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001145 seconds.
-  path: Assets/Tiny Fantasy Icons/Potions/Potion_Epic_White.png
-  artifactKey: Guid(f91ff0ff43306d74db68765a9566534d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Epic_White.png using Guid(f91ff0ff43306d74db68765a9566534d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ad6419b2b941758d4d24ee03d479a5') in 0.047820 seconds 
-  Import took 0.058485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000847 seconds.
-  path: Assets/Tiny Fantasy Icons/Potions/Potion_Medium_Yellow.png
-  artifactKey: Guid(84c60540f81d53340a67100eddb9bbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Medium_Yellow.png using Guid(84c60540f81d53340a67100eddb9bbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e5b07b370b5fa3302cf9a95f2b8529') in 0.037146 seconds 
-  Import took 0.050025 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000835 seconds.
-  path: Assets/Tiny Fantasy Icons/Potions/Potion_Huge_Purple.png
-  artifactKey: Guid(7277c6fbf68515a43952328a710bcb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Huge_Purple.png using Guid(7277c6fbf68515a43952328a710bcb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b89464ce3275643f6627343d4d8661e') in 0.041464 seconds 
-  Import took 0.053241 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000599 seconds.
-  path: Assets/Tiny Fantasy Icons/Potions/Potion_Medium_Orange.png
-  artifactKey: Guid(0da3d7ad73ab3ec438b8dd01e749b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Medium_Orange.png using Guid(0da3d7ad73ab3ec438b8dd01e749b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db7185018667be880f68c389903e44f') in 0.044177 seconds 
-  Import took 0.056833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002939 seconds.
-  path: Assets/Tiny Fantasy Icons/Potions/Potion_Epic_Blue.png
-  artifactKey: Guid(aa590f0874ea2024ea4eb284491850a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Epic_Blue.png using Guid(aa590f0874ea2024ea4eb284491850a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff93e799fe0ba29ebf178014ba59045') in 0.045591 seconds 
-  Import took 0.055640 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000603 seconds.
-  path: Assets/Tiny Fantasy Icons/Potions/Potion_Huge_Green.png
-  artifactKey: Guid(27adb22ed0418c14abccb63ffc49369b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Huge_Green.png using Guid(27adb22ed0418c14abccb63ffc49369b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e6b73f89213a3b75dd15cc31107a15') in 0.039234 seconds 
-  Import took 0.049601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000681 seconds.
-  path: Assets/Tiny Fantasy Icons/Potions/Potion_Medium_Red.png
-  artifactKey: Guid(9e4fbebb6cde952428e19243aeb3289f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Medium_Red.png using Guid(9e4fbebb6cde952428e19243aeb3289f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c830566507596362dc6e4f8e5aa160ad') in 0.042940 seconds 
-  Import took 0.055791 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000777 seconds.
-  path: Assets/Tiny Fantasy Icons/Potions/Potion_Epic_Yellow.png
-  artifactKey: Guid(826f7af02e10940418e845c5be66b11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Epic_Yellow.png using Guid(826f7af02e10940418e845c5be66b11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6819eeb65313233d97d32614f624646') in 0.033283 seconds 
-  Import took 0.047516 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000811 seconds.
-  path: Assets/Tiny Fantasy Icons/Potions/Potion_Epic_Orange.png
-  artifactKey: Guid(52f82a5216861d343bd1acfd9b0266d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Epic_Orange.png using Guid(52f82a5216861d343bd1acfd9b0266d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1896e9bcb498bb119e37ebcb8ea6ecb7') in 0.039746 seconds 
-  Import took 0.049501 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000796 seconds.
-  path: Assets/Tiny Fantasy Icons/Potions/Potion_Huge_Blue.png
-  artifactKey: Guid(c05dbddf4504d824997d38a344e25633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Huge_Blue.png using Guid(c05dbddf4504d824997d38a344e25633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdb96981ce29d1c0f8513070687cdda') in 0.046069 seconds 
-  Import took 0.057804 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000750 seconds.
-  path: Assets/Tiny Fantasy Icons/Potions/Potion_Large_White.png
-  artifactKey: Guid(7c1ce779cd82c52499729625df254007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Large_White.png using Guid(7c1ce779cd82c52499729625df254007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab02ebfb1b549aaf57d4ad4436debb1') in 0.037427 seconds 
-  Import took 0.048599 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000606 seconds.
-  path: Assets/Tiny Fantasy Icons/Potions/Potion_Huge_White.png
-  artifactKey: Guid(155490138c52ef443b3776ca6597d904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Huge_White.png using Guid(155490138c52ef443b3776ca6597d904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e41b5bc337523f9f935d4999a936b86') in 0.038559 seconds 
-  Import took 0.050638 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000634 seconds.
-  path: Assets/Tiny Fantasy Icons/Potions/Potion_Medium_Purple.png
-  artifactKey: Guid(fd10626a10c79644dbde2e6f1b1476b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Medium_Purple.png using Guid(fd10626a10c79644dbde2e6f1b1476b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa81382b45325a0ca979ed48e5c9a59d') in 0.041708 seconds 
-  Import took 0.057296 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000892 seconds.
-  path: Assets/Tiny Fantasy Icons/Potions/Potion_Large_Red.png
-  artifactKey: Guid(9a8f615aa852fcb4f9557c6550ebd454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Large_Red.png using Guid(9a8f615aa852fcb4f9557c6550ebd454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e587ca9da3de45fc92b326bee820ec') in 0.035695 seconds 
-  Import took 0.045315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000727 seconds.
-  path: Assets/Tiny Fantasy Icons/Potions/Potion_Large_Blue.png
-  artifactKey: Guid(d988a648dc2c84d41b75c6ac3dc8c9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Large_Blue.png using Guid(d988a648dc2c84d41b75c6ac3dc8c9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb59a3508c4d25dd2189183c4eeca1d') in 0.042538 seconds 
-  Import took 0.050029 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000553 seconds.
-  path: Assets/Tiny Fantasy Icons/Potions/Potion_Large_Purple.png
-  artifactKey: Guid(0bee6c36fa94d5c458dc978cba5f205f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Large_Purple.png using Guid(0bee6c36fa94d5c458dc978cba5f205f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d248b2c758782b918929f302d54ab49') in 0.039457 seconds 
-  Import took 0.052564 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000815 seconds.
-  path: Assets/Tiny Fantasy Icons/Potions/Potion_Medium_White.png
-  artifactKey: Guid(cd57493d4a17891448f4110fab0eece2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Medium_White.png using Guid(cd57493d4a17891448f4110fab0eece2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb0ba70c8596dde86ce1c0fdec3a2c8') in 0.040826 seconds 
-  Import took 0.053535 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000545 seconds.
-  path: Assets/Tiny Fantasy Icons/Potions/Potion_Huge_Yellow.png
-  artifactKey: Guid(35ce6a3441e8b7744b668c28ae3f8801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Huge_Yellow.png using Guid(35ce6a3441e8b7744b668c28ae3f8801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9224493227f09d926b556630081c1b38') in 0.039101 seconds 
-  Import took 0.048072 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000751 seconds.
-  path: Assets/Tiny Fantasy Icons/Potions/Potion_Epic_Red.png
-  artifactKey: Guid(335118b52efaa2e40894b90ec06e02a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Epic_Red.png using Guid(335118b52efaa2e40894b90ec06e02a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f94c1bb40c7e68f776f53822f00135b') in 0.047738 seconds 
-  Import took 0.058171 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 44.815040 seconds.
-  path: Assets/Pixel Art Top Down - Basic/Prefab
-  artifactKey: Guid(4451b78203ce1474caa69f68067a0221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art Top Down - Basic/Prefab using Guid(4451b78203ce1474caa69f68067a0221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c3d1528be46bed57c63aa8909bc8a0') in 0.008404 seconds 
-  Import took 0.030606 seconds .
+  Time since last request: 548.723238 seconds.
+  path: Assets/Pixel Art Top Down - Basic/Scene/SC Pixel Art Top Down - Basic.unity
+  artifactKey: Guid(86e89bd9e4a9c5245a015cf17e3c0aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Art Top Down - Basic/Scene/SC Pixel Art Top Down - Basic.unity using Guid(86e89bd9e4a9c5245a015cf17e3c0aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a3c174d97c22e85f901c304ecc12f8') in 0.005876 seconds 
+  Import took 0.013530 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
