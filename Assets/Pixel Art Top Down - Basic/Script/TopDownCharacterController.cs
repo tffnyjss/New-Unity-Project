@@ -10,13 +10,13 @@ namespace Cainos.PixelArtTopDown_Basic
 
         private Animator animator;
 
-        private Inventory inventory;
+       
 
         private void Start()
         {
             animator = GetComponent<Animator>();
 
-            inventory = new Inventory();
+           
         }
 
 

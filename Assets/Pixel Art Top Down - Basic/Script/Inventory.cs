@@ -4,6 +4,29 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-    public bool[] isFull;
-    public GameObject[] slots;
+    // Start is called before the first frame update
+   private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.CompareTag("Collectables"))
+        {
+            Collect(other.GetComponent<Collectables>());
+
+        }
+    }
+    private void Collect(Collectables collectables)
+    {
+        if (collectables.Collect())
+        {
+            if (collectables is Diamond)
+            {
+                Debug.Log("DiamondCollectables");
+
+            }
+            else if (collectables is Potion)
+            {
+                Debug.Log("PotionCollectables");
+
+            }
+        }
+    }
 }
