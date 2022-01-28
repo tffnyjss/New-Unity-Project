@@ -27,6 +27,12 @@ public class Inventory : MonoBehaviour
                 Debug.Log("PotionCollectables");
 
             }
+            else if (collectables is Food)
+            {
+                Debug.Log("FoodCollectables");
+
+            }
+           
         }
     }
 }
