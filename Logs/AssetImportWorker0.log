@@ -180,3 +180,4 @@ Received Import Request.
 Start importing Assets/Scenes/LvLThree.unity using Guid(0e9341c018d61b1409a2aa661b4c91ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c179daed564a6a39d17ce7e70e257af0') in 0.007386 seconds 
   Import took 0.015921 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
