@@ -171,4 +171,7 @@ Received Import Request.
 Start importing Assets/Scenes/LvLOne.unity using Guid(5758f4e121b07ef4ab82f259740d130f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10591ed02dfc5d2c729cde6939979109') in 0.009352 seconds 
   Import took 0.066613 seconds .
 
+<<<<<<< Updated upstream
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+=======
+>>>>>>> Stashed changes
