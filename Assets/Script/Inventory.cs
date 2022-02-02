@@ -1,13 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Inventory : MonoBehaviour
 {
+
+
+    public Text diamondCounter;
+    public Text potionCounter;
+    public Text foodCounter;
+   
+
+    private int diamonds = 0;
+    private int potions = 0;
+    private int food = 0;
+    
+
     // Start is called before the first frame update
-   private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag("Collectables"))
+        if (other.CompareTag("Collectables"))
         {
             Collect(other.GetComponent<Collectables>());
 
@@ -18,21 +31,36 @@ public class Inventory : MonoBehaviour
         if (collectables.Collect())
         {
             if (collectables is Diamond)
+                
             {
                 Debug.Log("DiamondCollectables");
+                diamonds++;
 
             }
             else if (collectables is Potion)
+                
             {
                 Debug.Log("PotionCollectables");
+                potions++;
 
             }
             else if (collectables is Food)
             {
                 Debug.Log("FoodCollectables");
+                food++;
 
             }
-           
+            
+            UpdateGUI();
+
         }
+    }
+
+    private void UpdateGUI()
+    {
+        diamondCounter.text = diamonds.ToString();
+        potionCounter.text = potions.ToString();
+        foodCounter.text = food.ToString();
+        
     }
 }
