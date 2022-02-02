@@ -15,11 +15,11 @@ C:/Users/Andrea/Documents/GitHub/New-Unity-Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51724
+64773
 Successfully changed project path to: C:/Users/Andrea/Documents/GitHub/New-Unity-Project
 C:/Users/Andrea/Documents/GitHub/New-Unity-Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 256.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 123.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.20f1 (41c4e627c95f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -35,92 +35,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007182 seconds.
+Registered in 0.005275 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 108.91 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 100.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  7.527 seconds
+- Completed reload, in  6.252 seconds
 Domain Reload Profiling:
-	ReloadAssembly (7527ms)
-		BeginReloadAssembly (171ms)
+	ReloadAssembly (6252ms)
+		BeginReloadAssembly (143ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1173ms)
-			LoadAssemblies (163ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1084ms)
+			LoadAssemblies (140ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (434ms)
+			SetupTypeCache (388ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (91ms)
-			SetupLoadedEditorAssemblies (406ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (371ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (109ms)
-				BeforeProcessingInitializeOnLoad (19ms)
-				ProcessInitializeOnLoadAttributes (193ms)
-				ProcessInitializeOnLoadMethodAttributes (69ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (101ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011678 seconds.
+Registered in 0.007456 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 124.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 139.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.268 seconds
+- Completed reload, in  3.056 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3271ms)
-		BeginReloadAssembly (355ms)
+	ReloadAssembly (3058ms)
+		BeginReloadAssembly (304ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (26ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (2758ms)
-			LoadAssemblies (211ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (2617ms)
+			LoadAssemblies (191ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (844ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (148ms)
-			SetupLoadedEditorAssemblies (1064ms)
+			SetupTypeCache (807ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (156ms)
+			SetupLoadedEditorAssemblies (1051ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (124ms)
-				BeforeProcessingInitializeOnLoad (187ms)
-				ProcessInitializeOnLoadAttributes (657ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
-				AfterProcessingInitializeOnLoad (34ms)
-				EditorAssembliesLoaded (1ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (140ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (698ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (28ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.31 seconds
-Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2155 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 97.0 MB.
 System memory in use after: 97.1 MB.
 
 Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2591.
-Total: 7.244600 ms (FindLiveObjects: 0.515300 ms CreateObjectMapping: 0.088200 ms MarkObjects: 6.445500 ms  DeleteObjects: 0.192200 ms)
+Total: 8.477100 ms (FindLiveObjects: 0.688600 ms CreateObjectMapping: 0.322800 ms MarkObjects: 7.286800 ms  DeleteObjects: 0.175600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,76 +134,329 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/LvLThree.unity
-  artifactKey: Guid(5c924e76213beff45aafeaf7e8eea035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LvLThree.unity using Guid(5c924e76213beff45aafeaf7e8eea035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48803d2f66e8cf490967dd422636bfe7') in 0.084340 seconds 
-  Import took 0.127968 seconds .
+  path: Assets/Sweet Land GUI/Prefabs/Button_Music_On Variant.prefab
+  artifactKey: Guid(998363392bda22042b2230444d6c3352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sweet Land GUI/Prefabs/Button_Music_On Variant.prefab using Guid(998363392bda22042b2230444d6c3352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed77a3f6b538c4cbd35485d619b36516') in 0.345084 seconds 
+  Import took 0.373939 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 452.577097 seconds.
-  path: Assets/2d Free Pixel Art Realistic Crystals Pack/Documentation
-  artifactKey: Guid(a1ffb7dd35b830e46b15cc97800c77a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2d Free Pixel Art Realistic Crystals Pack/Documentation using Guid(a1ffb7dd35b830e46b15cc97800c77a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90a6ecfa5e40f2cb976dce67b69f8be') in 0.007490 seconds 
-  Import took 0.037063 seconds .
+  Time since last request: 0.000675 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Button_Music_On.prefab
+  artifactKey: Guid(6224e969c01b3524386fe2011ba9ecd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sweet Land GUI/Prefabs/Button_Music_On.prefab using Guid(6224e969c01b3524386fe2011ba9ecd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0165a8c5f0f45bca2943133d3514db03') in 0.017833 seconds 
+  Import took 0.047316 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008679 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.556 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2557ms)
-		BeginReloadAssembly (343ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (20ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (102ms)
-		EndReloadAssembly (2032ms)
-			LoadAssemblies (273ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (768ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (86ms)
-			SetupLoadedEditorAssemblies (658ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (145ms)
-				ProcessInitializeOnLoadAttributes (465ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (19ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (24ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.8 MB.
-System memory in use after: 94.9 MB.
+Received Import Request.
+  Time since last request: 0.000853 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Toggle.prefab
+  artifactKey: Guid(f30a76e5bb728d749917c7fdc9696885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sweet Land GUI/Prefabs/Toggle.prefab using Guid(f30a76e5bb728d749917c7fdc9696885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fcfafbf742fc9b8e2f12f04679c4962') in 0.073127 seconds 
+  Import took 0.121010 seconds .
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2593.
-Total: 11.654700 ms (FindLiveObjects: 0.722200 ms CreateObjectMapping: 0.208600 ms MarkObjects: 10.632400 ms  DeleteObjects: 0.086600 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000898 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Joystick_Walk_Jelly.prefab
+  artifactKey: Guid(ce2891fe58e6b9c4ea83f486c3e302d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sweet Land GUI/Prefabs/Joystick_Walk_Jelly.prefab using Guid(ce2891fe58e6b9c4ea83f486c3e302d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3fc42ba9a30924c096785b79b838963') in 0.049801 seconds 
+  Import took 0.095860 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000644 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Joystick_Walk_Cookie.prefab
+  artifactKey: Guid(08aa126ae8b901a47895a135ae4f10a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sweet Land GUI/Prefabs/Joystick_Walk_Cookie.prefab using Guid(08aa126ae8b901a47895a135ae4f10a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4b8bf9796eae5f00dd9174a15946fb') in 0.036465 seconds 
+  Import took 0.056541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000657 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Prize_Window.prefab
+  artifactKey: Guid(2de6adfc5be43444bb76afa224daee78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sweet Land GUI/Prefabs/Prize_Window.prefab using Guid(2de6adfc5be43444bb76afa224daee78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf6d0dd0f88ef78e658446a78258f41') in 0.078091 seconds 
+  Import took 0.098972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000571 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Button_Shop Variant.prefab
+  artifactKey: Guid(d6be6e19f7ed0d44184b2f108d183ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sweet Land GUI/Prefabs/Button_Shop Variant.prefab using Guid(d6be6e19f7ed0d44184b2f108d183ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9124244865b839b216f650eae6084982') in 0.027845 seconds 
+  Import took 0.083533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000646 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Button_Pause.prefab
+  artifactKey: Guid(1dbd35d4719e0b24aadd3d891ff35bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sweet Land GUI/Prefabs/Button_Pause.prefab using Guid(1dbd35d4719e0b24aadd3d891ff35bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c0d151b9b360085be78a77d57f4c5e') in 0.097301 seconds 
+  Import took 0.106524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Button_Exit Variant.prefab
+  artifactKey: Guid(74ba689a879ace048a2e4a9279e977cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sweet Land GUI/Prefabs/Button_Exit Variant.prefab using Guid(74ba689a879ace048a2e4a9279e977cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3ad648ac5a7dbcbc42034d13905ff9') in 0.012426 seconds 
+  Import took 0.019402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Button_Restart.prefab
+  artifactKey: Guid(59f1ce32ecdd8c649bf59285efe7e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sweet Land GUI/Prefabs/Button_Restart.prefab using Guid(59f1ce32ecdd8c649bf59285efe7e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3f6782d250920460ac2bd215d44f47') in 0.021916 seconds 
+  Import took 0.030598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Loading_Ad_Fail.prefab
+  artifactKey: Guid(51a80e8cf7a986448911cf42d67ff07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sweet Land GUI/Prefabs/Loading_Ad_Fail.prefab using Guid(51a80e8cf7a986448911cf42d67ff07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b670fb72027abf1f8f8536d84aa6cd85') in 0.040490 seconds 
+  Import took 0.077407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000675 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Button_Music_Off.prefab
+  artifactKey: Guid(a524d15ed3051e74885f282a1b10845c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sweet Land GUI/Prefabs/Button_Music_Off.prefab using Guid(a524d15ed3051e74885f282a1b10845c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b1accde840ac949cbdc2d969cd9a8c') in 0.045725 seconds 
+  Import took 0.063233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000687 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Add_Video_Button.prefab
+  artifactKey: Guid(a2a5e04f4b767304ab223ea716cb9631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sweet Land GUI/Prefabs/Add_Video_Button.prefab using Guid(a2a5e04f4b767304ab223ea716cb9631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6fb165cda473fea51e12c53774ed76') in 0.078383 seconds 
+  Import took 0.087595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000631 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Button_Restart Variant.prefab
+  artifactKey: Guid(3961448ce6b4e43479aa4862922180cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sweet Land GUI/Prefabs/Button_Restart Variant.prefab using Guid(3961448ce6b4e43479aa4862922180cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570edf0dcdc72a2032dce6465cdd6600') in 0.017816 seconds 
+  Import took 0.061598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000612 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Joystick_Fire_Cookie.prefab
+  artifactKey: Guid(308fa906fade03142a5036595b6993b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sweet Land GUI/Prefabs/Joystick_Fire_Cookie.prefab using Guid(308fa906fade03142a5036595b6993b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64c7f52d0d25bc3baf9a12d217296b8') in 0.046125 seconds 
+  Import took 0.052567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Button_Shop.prefab
+  artifactKey: Guid(254352ac83cce7844912efbd61e47ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sweet Land GUI/Prefabs/Button_Shop.prefab using Guid(254352ac83cce7844912efbd61e47ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adefc34901006e1f10cd691eb514415a') in 0.013001 seconds 
+  Import took 0.033903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000536 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Joystick_Fire_Jelly.prefab
+  artifactKey: Guid(92fadbd01739ba34585da676e798fa74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sweet Land GUI/Prefabs/Joystick_Fire_Jelly.prefab using Guid(92fadbd01739ba34585da676e798fa74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e66351f64872f8cd5af7fe9a0998b6e') in 0.026423 seconds 
+  Import took 0.057109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Button_Exit.prefab
+  artifactKey: Guid(e00dd58c7555779478d619f5ee7fbc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sweet Land GUI/Prefabs/Button_Exit.prefab using Guid(e00dd58c7555779478d619f5ee7fbc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1919108279eaaa2ff814fe5d5e491c12') in 0.009385 seconds 
+  Import took 0.025800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000671 seconds.
+  path: Assets/Sweet Land GUI/Prefabs
+  artifactKey: Guid(963a1e8f09477bb44a14bdb409a6f078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sweet Land GUI/Prefabs using Guid(963a1e8f09477bb44a14bdb409a6f078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c249d7d62d03330c5fc479bc5f65349') in 0.008455 seconds 
+  Import took 0.033402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Loading_Ad.prefab
+  artifactKey: Guid(a322db60be7bccd46bb618ba881bfa6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sweet Land GUI/Prefabs/Loading_Ad.prefab using Guid(a322db60be7bccd46bb618ba881bfa6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12bbca6a50cd035d36547f68eaef8ce4') in 0.020935 seconds 
+  Import took 0.028895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000592 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Power_Button_Jelly.prefab
+  artifactKey: Guid(677dd0719574c1842a15b9e3c6fabdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sweet Land GUI/Prefabs/Power_Button_Jelly.prefab using Guid(677dd0719574c1842a15b9e3c6fabdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694769c6e72568db421562bccb97118a') in 0.044524 seconds 
+  Import took 0.061774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Power_Button_Cookie.prefab
+  artifactKey: Guid(dceee1964c43f2847b38a8b91650dc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sweet Land GUI/Prefabs/Power_Button_Cookie.prefab using Guid(dceee1964c43f2847b38a8b91650dc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fece9313368c85caaa060e7cd43cb24d') in 0.035055 seconds 
+  Import took 0.040251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Button_Play.prefab
+  artifactKey: Guid(dfc791cae673ad54f95dfb5d7dac7c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sweet Land GUI/Prefabs/Button_Play.prefab using Guid(dfc791cae673ad54f95dfb5d7dac7c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0624e3655355719e298f6842b9b41227') in 0.020710 seconds 
+  Import took 0.070616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000493 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Button_Settings.prefab
+  artifactKey: Guid(5754ef6133508f94eb5f9008157be8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sweet Land GUI/Prefabs/Button_Settings.prefab using Guid(5754ef6133508f94eb5f9008157be8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f717db39bfcbd82ac13ca509d66e62f') in 0.038734 seconds 
+  Import took 0.046155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Button_Close.prefab
+  artifactKey: Guid(6d6e6e690a5820a4a97763552486b8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sweet Land GUI/Prefabs/Button_Close.prefab using Guid(6d6e6e690a5820a4a97763552486b8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4057780e41d7314d5aa9cbfd3b9f9016') in 0.009464 seconds 
+  Import took 0.046773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.385535 seconds.
+  path: Assets/Tiny Fantasy Icons/Chests
+  artifactKey: Guid(9d0e600206b5dea4f9d911153935d192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Fantasy Icons/Chests using Guid(9d0e600206b5dea4f9d911153935d192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1dbba0712f4818d12c14dc50848526f') in 0.005312 seconds 
+  Import took 0.034654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.251525 seconds.
+  path: Assets/Tiny Fantasy Icons/Bones
+  artifactKey: Guid(c76d1f3dbceb818488c4e7b871a614d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Fantasy Icons/Bones using Guid(c76d1f3dbceb818488c4e7b871a614d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b28e407e7638843fdc67615392e290') in 0.008675 seconds 
+  Import took 0.063522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.999193 seconds.
+  path: Assets/Tiny Fantasy Icons/Explosives
+  artifactKey: Guid(a96eecadaf9fb184f8ea219de6c86454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Fantasy Icons/Explosives using Guid(a96eecadaf9fb184f8ea219de6c86454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74703803d0ca200583e7c7cc846e4db') in 0.090636 seconds 
+  Import took 0.139427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.240900 seconds.
+  path: Assets/Tiny Fantasy Icons/Food
+  artifactKey: Guid(184268ed441d59445826944efb5874d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Fantasy Icons/Food using Guid(184268ed441d59445826944efb5874d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4bcc5155672016eabec3ece8f14b94') in 0.005228 seconds 
+  Import took 0.011479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.292037 seconds.
+  path: Assets/Tiny Fantasy Icons/Gems
+  artifactKey: Guid(832cb47ee70baed4eb8d057cb860a258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Fantasy Icons/Gems using Guid(832cb47ee70baed4eb8d057cb860a258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956b7bb96af73d3a145ba66669753fd1') in 0.005237 seconds 
+  Import took 0.032782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.244228 seconds.
+  path: Assets/Tiny Fantasy Icons/Keys
+  artifactKey: Guid(10f602d342b0d2a45b25e71fd880c313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Fantasy Icons/Keys using Guid(10f602d342b0d2a45b25e71fd880c313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4010697db1bffa0e86c70039451dc5c3') in 0.006808 seconds 
+  Import took 0.013150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.849356 seconds.
+  path: Assets/Tiny Fantasy Icons/PetEggs
+  artifactKey: Guid(842221e73cbaa3443b04437bf1cda40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Fantasy Icons/PetEggs using Guid(842221e73cbaa3443b04437bf1cda40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bca179a4516692ef5c06fe8d6562431') in 0.005208 seconds 
+  Import took 0.042917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.503768 seconds.
+  path: Assets/Tiny Fantasy Icons/Potions
+  artifactKey: Guid(90d5eea845b66344bac127dbdcdba7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Fantasy Icons/Potions using Guid(90d5eea845b66344bac127dbdcdba7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7de9e91d33d59ef0a56c897dbc95436') in 0.004548 seconds 
+  Import took 0.025834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021810 seconds.
+  path: Assets/Tiny Fantasy Icons/Potions/Potion_Tiny_Orange.png
+  artifactKey: Guid(7902454d4b322ff4fa8df060512a4e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Tiny_Orange.png using Guid(7902454d4b322ff4fa8df060512a4e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538eec8152af0ec796fc225d5809d465') in 0.692722 seconds 
+  Import took 0.748336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000649 seconds.
+  path: Assets/Tiny Fantasy Icons/Potions/Potion_Tiny_Yellow.png
+  artifactKey: Guid(58455ddcbb6b14944a4e57f8c51a477e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Tiny_Yellow.png using Guid(58455ddcbb6b14944a4e57f8c51a477e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb837fa2895f7f65d5692fcb501ac68c') in 0.069760 seconds 
+  Import took 0.099448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/Tiny Fantasy Icons/Potions/Potion_Tiny_Red.png
+  artifactKey: Guid(b6e37f272502fa442934864a6fc1f773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Tiny_Red.png using Guid(b6e37f272502fa442934864a6fc1f773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6178a40a40c5a2bf69101efe87d2e8c2') in 0.058751 seconds 
+  Import took 0.083355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Tiny Fantasy Icons/Potions/Potion_Tiny_White.png
+  artifactKey: Guid(9f4375d1c808c9a4aa3137680ffd9fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Tiny_White.png using Guid(9f4375d1c808c9a4aa3137680ffd9fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b43b5d50ea3a49c8bc4669217bbb6d2') in 0.042738 seconds 
+  Import took 0.056627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000584 seconds.
+  path: Assets/Tiny Fantasy Icons/Potions/Potion_Tiny_Purple.png
+  artifactKey: Guid(2d88cac3bf406f5488b90101c84bdfbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Fantasy Icons/Potions/Potion_Tiny_Purple.png using Guid(2d88cac3bf406f5488b90101c84bdfbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aafcb656a7c0629943499fad5d5c80e') in 0.062207 seconds 
+  Import took 0.088535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 123.379156 seconds.
+  path: Assets/Tiny Fantasy Icons/Presents
+  artifactKey: Guid(0ee563ef637493d47ac64206af9d8512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Fantasy Icons/Presents using Guid(0ee563ef637493d47ac64206af9d8512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb442bca49f297dc865bb3afe1cf0f7b') in 0.006193 seconds 
+  Import took 0.031559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007948 seconds.
+  path: Assets/Tiny Fantasy Icons/Presents/Present_C.png
+  artifactKey: Guid(65d6bc7d8419ac9439cc0d47da5f85ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Fantasy Icons/Presents/Present_C.png using Guid(65d6bc7d8419ac9439cc0d47da5f85ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8fa15ddabbb0c797129ac0045d6bc00') in 0.064163 seconds 
+  Import took 0.096491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.761660 seconds.
+  path: Assets/Tiny Fantasy Icons/Time
+  artifactKey: Guid(41106223fc1b26345a0a05e546099fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Fantasy Icons/Time using Guid(41106223fc1b26345a0a05e546099fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567fe82799543ff5f2408b7a55e4922b') in 0.004956 seconds 
+  Import took 0.032975 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
