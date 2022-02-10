@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Inventory1 : MonoBehaviour
+public class Inventory : MonoBehaviour
 {
 
 

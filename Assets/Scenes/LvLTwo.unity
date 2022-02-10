@@ -5176,7 +5176,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2288588482145889754, guid: ef67ba864d1ecc042b5f4cf48455c0a6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ef67ba864d1ecc042b5f4cf48455c0a6, type: 3}
 --- !u!4 &209031955 stripped
 Transform:
@@ -5577,6 +5578,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 720de4dc129dd704497a1c71b305ac83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &380892536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380892534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f50018fd6fbab6347b8ba277a8883b20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diamondCounter: {fileID: 970573381}
+  potionCounter: {fileID: 431345753}
+  foodCounter: {fileID: 1330563584}
 --- !u!4 &380892541 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5628018141983903106, guid: ef67ba864d1ecc042b5f4cf48455c0a6,

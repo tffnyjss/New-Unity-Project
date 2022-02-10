@@ -4,19 +4,19 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Inventory1 : MonoBehaviour
+public class Inventory4 : MonoBehaviour
 {
 
 
     public Text diamondCounter;
     public Text potionCounter;
     public Text foodCounter;
-   
+
 
     private int diamonds = 0;
     private int potions = 0;
     private int food = 0;
-    
+
 
     // Start is called before the first frame update
     private void OnTriggerEnter2D(Collider2D other)
@@ -32,14 +32,14 @@ public class Inventory1 : MonoBehaviour
         if (collectables.Collect())
         {
             if (collectables is Diamond)
-                
+
             {
                 Debug.Log("DiamondCollectables");
                 diamonds++;
 
             }
             else if (collectables is Potion)
-                
+
             {
                 Debug.Log("PotionCollectables");
                 potions++;
@@ -51,7 +51,7 @@ public class Inventory1 : MonoBehaviour
                 food++;
 
             }
-            
+
             UpdateGUI();
 
         }
@@ -59,15 +59,15 @@ public class Inventory1 : MonoBehaviour
 
     private void UpdateGUI()
     {
-        if((diamonds == 1)&& (potions==1))
+        if ((diamonds == 2) && (potions == 2))
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(5);
         }
-   
+
         diamondCounter.text = diamonds.ToString();
         potionCounter.text = potions.ToString();
         foodCounter.text = food.ToString();
-        
+
     }
-   
+
 }

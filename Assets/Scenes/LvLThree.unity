@@ -17786,7 +17786,8 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2288588482145889754, guid: ef67ba864d1ecc042b5f4cf48455c0a6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ef67ba864d1ecc042b5f4cf48455c0a6, type: 3}
 --- !u!4 &1156744188 stripped
 Transform:
@@ -26914,6 +26915,21 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1156744187}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2020734988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020734983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d364469eec0878946b910968d78f4210, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diamondCounter: {fileID: 198476809}
+  potionCounter: {fileID: 2144517600}
+  foodCounter: {fileID: 1115404135}
 --- !u!114 &2020734990
 MonoBehaviour:
   m_ObjectHideFlags: 0
