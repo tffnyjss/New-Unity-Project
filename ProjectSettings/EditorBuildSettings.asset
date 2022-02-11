@@ -12,10 +12,10 @@ EditorBuildSettings:
     path: Assets/Scenes/LvLOne.unity
     guid: 5758f4e121b07ef4ab82f259740d130f
   - enabled: 1
-    path: Assets/Scenes/LvLThree.unity
+    path: Assets/Scenes/LvLTwo.unity
     guid: 0e9341c018d61b1409a2aa661b4c91ca
   - enabled: 1
-    path: Assets/Scenes/LvLTwo.unity
+    path: Assets/Scenes/LvLThree.unity
     guid: 5c924e76213beff45aafeaf7e8eea035
   - enabled: 1
     path: Assets/Scenes/LvLFour.unity
@@ -26,13 +26,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Congrats.unity
     guid: f9426a69f70f661409aa997fdbaea9c4
-  - enabled: 1
-    path: Assets/Scenes/GameOver.unity
-    guid: 861caaf8255955340be8772d1358f29d
-  - enabled: 1
-    path: Assets/Scenes/Tutorial.unity
-    guid: 43d7bcf6c07f35a4cbc7a2f63e840e94
-  - enabled: 1
-    path: Assets/Scenes/Pause.unity
-    guid: 6fb6e2bd5e60f78439e5de937d30b07a
   m_configObjects: {}
