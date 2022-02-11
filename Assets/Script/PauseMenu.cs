@@ -6,19 +6,21 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-   
+    [SerializeField] GameObject pauseMenu;
     public void Pause()
     {
-        SceneManager.LoadScene(9);
+        pauseMenu.SetActive(true);
+        Time.timeScale = 0f;
     }
     public void Resume()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        pauseMenu.SetActive(false);
+        Time.timeScale = 1f;
     }
-    public void Home()
+    public void Home(int sceneID)
     {
-        
-        SceneManager.LoadScene(0);
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(sceneID);
     }
-    
+
 }

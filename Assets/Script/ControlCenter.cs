@@ -18,6 +18,6 @@ public class ControlCenter : MonoBehaviour
     }
     public void ResetScene()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex-1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
