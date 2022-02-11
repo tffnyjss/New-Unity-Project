@@ -8,6 +8,7 @@ public class Inventory2 : MonoBehaviour
 {
 
 
+    [SerializeField] public GameObject panel;
     public Text diamondCounter;
     public Text potionCounter;
     public Text foodCounter;
@@ -16,6 +17,10 @@ public class Inventory2 : MonoBehaviour
     private int diamonds = 0;
     private int potions = 0;
     private int food = 0;
+    public void Start()
+    {
+        panel.SetActive(false);
+    }
 
 
     // Start is called before the first frame update
@@ -59,9 +64,9 @@ public class Inventory2 : MonoBehaviour
 
     private void UpdateGUI()
     {
-        if ((diamonds == 2) && (potions == 2))
+        if ((diamonds == 1) && (potions == 1))
         {
-            SceneManager.LoadScene(3);
+            OpenPanel();
         }
 
         diamondCounter.text = diamonds.ToString();
@@ -69,5 +74,11 @@ public class Inventory2 : MonoBehaviour
         foodCounter.text = food.ToString();
 
     }
+    void OpenPanel()
+    {
+
+        panel.SetActive(true);
+    }
+
 
 }
