@@ -4,7 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameOver : MonoBehaviour
+    
 {
+    [SerializeField] GameObject GameOverMenu;
     public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
@@ -12,7 +14,7 @@ public class GameOver : MonoBehaviour
 
     public void Home()
     {
-        SceneManager.LoadScene("Menu Page");
+        SceneManager.LoadScene(0);
     }
 
 }

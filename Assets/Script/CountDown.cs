@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class CountDown : MonoBehaviour
 {
-    [SerializeField] GameObject panel;
+    
     [SerializeField] Image timeImage;
     [SerializeField] Text timeText;
     [SerializeField] float duration, currentTime;
@@ -15,7 +15,7 @@ public class CountDown : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        panel.SetActive(false);
+        
         currentTime = duration;
         timeText.text = currentTime.ToString();
         StartCoroutine(TimeIEn());
@@ -32,22 +32,8 @@ public class CountDown : MonoBehaviour
             currentTime--;
 
         }
-        OpenPanel();
+        SceneManager.LoadScene(7);
     }
-    void OpenPanel()
-    {
-        timeText.text = "" ;
-        panel.SetActive(true);
-    }
-    public void Retry(int sceneID)
-    {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(sceneID);
-    }
-    public void Home(int sceneID)
-    {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(sceneID);
-    }
+    
 
 }
