@@ -5439,7 +5439,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1530033198}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: CountDown, Assembly-CSharp
         m_MethodName: Home
         m_Mode: 3
@@ -6505,7 +6505,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1530033198}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: CountDown, Assembly-CSharp
         m_MethodName: Retry
         m_Mode: 3
@@ -9203,13 +9203,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1530033196}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 460808364aa505a41be73eb08f2cd45a, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e257537df1d62a4daac2be98bb98932, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panel: {fileID: 1471491522}
   timeImage: {fileID: 1530033199}
   timeText: {fileID: 1809134713}
-  duration: 60
-  currentTime: 60
+  duration: 4
+  currentTime: 4
 --- !u!114 &1530033199
 MonoBehaviour:
   m_ObjectHideFlags: 0
