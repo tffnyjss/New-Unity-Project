@@ -17,6 +17,7 @@ public class CountDown : MonoBehaviour
     {
         
         currentTime = duration;
+        duration = 60;
         timeText.text = currentTime.ToString();
         StartCoroutine(TimeIEn());
 
@@ -24,15 +25,14 @@ public class CountDown : MonoBehaviour
     }
     IEnumerator TimeIEn()
     {
-        while(currentTime>=0)
+        while(currentTime >= 0)
         {
             timeImage.fillAmount = Mathf.InverseLerp(0, duration, currentTime);
             timeText.text = currentTime.ToString();
             yield return new WaitForSeconds(1f);
             currentTime--;
-
         }
-        SceneManager.LoadScene(7);
+        SceneManager.LoadScene(7);        
     }
     
 
