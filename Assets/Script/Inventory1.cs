@@ -8,15 +8,20 @@ public class Inventory : MonoBehaviour
 {
 
 
+    [SerializeField] public GameObject panel;
     public Text diamondCounter;
     public Text potionCounter;
     public Text foodCounter;
-   
+
 
     private int diamonds = 0;
     private int potions = 0;
     private int food = 0;
-    
+    public void Start()
+    {
+        panel.SetActive(false);
+    }
+
 
     // Start is called before the first frame update
     private void OnTriggerEnter2D(Collider2D other)
@@ -32,14 +37,14 @@ public class Inventory : MonoBehaviour
         if (collectables.Collect())
         {
             if (collectables is Diamond)
-                
+
             {
                 Debug.Log("DiamondCollectables");
                 diamonds++;
 
             }
             else if (collectables is Potion)
-                
+
             {
                 Debug.Log("PotionCollectables");
                 potions++;
@@ -51,7 +56,7 @@ public class Inventory : MonoBehaviour
                 food++;
 
             }
-            
+
             UpdateGUI();
 
         }
@@ -59,15 +64,21 @@ public class Inventory : MonoBehaviour
 
     private void UpdateGUI()
     {
-        if((diamonds == 1)&& (potions==1))
+        if ((diamonds == 1) && (potions == 1))
         {
-            SceneManager.LoadScene(2);
+            OpenPanel();
         }
-   
+
         diamondCounter.text = diamonds.ToString();
         potionCounter.text = potions.ToString();
         foodCounter.text = food.ToString();
-        
+
     }
-   
+    void OpenPanel()
+    {
+
+        panel.SetActive(true);
+    }
+
+
 }
