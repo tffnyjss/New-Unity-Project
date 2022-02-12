@@ -64,7 +64,7 @@ public class Inventory5 : MonoBehaviour
 
     private void UpdateGUI()
     {
-        if ((diamonds == 1) && (potions == 1))
+        if ((diamonds == 8) && (potions == 5))
         {
             OpenPanel();
         }
