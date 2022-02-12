@@ -6872,7 +6872,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 222, y: -49}
+  m_AnchoredPosition: {x: -187, y: -49}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &754178180
@@ -10216,7 +10216,7 @@ MonoBehaviour:
   panel: {fileID: 1471491522}
   timeImage: {fileID: 1530033199}
   timeText: {fileID: 1809134713}
-  duration: 30
+  duration: 60
   currentTime: 4
 --- !u!114 &1530033199
 MonoBehaviour:
@@ -11692,7 +11692,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -193, y: -49}
+  m_AnchoredPosition: {x: 213, y: -49}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1874995153
@@ -14197,7 +14197,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 78c3f52eba5820447b9e7a3aa89d7182, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7a264a422f6e6bd43ac92350b7adcaf6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
