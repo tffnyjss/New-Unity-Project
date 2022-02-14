@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Congrats : MonoBehaviour
 {
+    
     public void Home()
     {
         SceneManager.LoadScene(0);
@@ -13,5 +14,6 @@ public class Congrats : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+        
     }
 }
