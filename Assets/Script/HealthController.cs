@@ -8,10 +8,14 @@ public class HealthController : MonoBehaviour
 {
     [SerializeField] public GameObject panel;
     public int playerHealth;
+    public AudioSource gameover;
+    public AudioSource sceneone;
+
     [SerializeField] private Image[] hearts;
     private void Start()
     {
         panel.SetActive(false);
+        sceneone.Play();
         UpdateHealth();
     }
     public void UpdateHealth()
@@ -32,6 +36,7 @@ public class HealthController : MonoBehaviour
         if (playerHealth == 0)
         {
             Debug.Log("Hearts");
+            
             OpenPanel();
         }
 
@@ -39,6 +44,8 @@ public class HealthController : MonoBehaviour
         {
 
             panel.SetActive(true);
+            sceneone.Stop();
+            gameover.Play();
         }
 
     }
