@@ -4092,6 +4092,8 @@ MonoBehaviour:
   timeText: {fileID: 0}
   duration: 0
   currentTime: 0
+  gameover: {fileID: 0}
+  sceneone: {fileID: 0}
 --- !u!114 &405078657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10477,6 +10479,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   panel: {fileID: 0}
   playerHealth: 3
+  gameover: {fileID: 0}
+  sceneone: {fileID: 0}
   hearts:
   - {fileID: 1146271655}
   - {fileID: 1337881423}
@@ -10888,5 +10892,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3910211696600868984, guid: 86e1732680cdae84b89002c1677e1a3d,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 55c405d43bbe4fa458a555582b75f63f, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86e1732680cdae84b89002c1677e1a3d, type: 3}
