@@ -554,6 +554,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1053286235}
   m_CullTransparentMesh: 1
+--- !u!82 &1087343830 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3500945134597147623, guid: fe8d35a0424b02c49b05a27292ee43b2,
+    type: 3}
+  m_PrefabInstance: {fileID: 4844489330588763583}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1329490593
 GameObject:
   m_ObjectHideFlags: 0
@@ -640,6 +646,7 @@ GameObject:
   - component: {fileID: 1492455849}
   - component: {fileID: 1492455848}
   - component: {fileID: 1492455847}
+  - component: {fileID: 1492455850}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -712,6 +719,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1492455850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492455846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 800ae7664e7f22d4a944a5ae00ab81eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menu: {fileID: 1087343830}
 --- !u!1 &1523719816
 GameObject:
   m_ObjectHideFlags: 0
