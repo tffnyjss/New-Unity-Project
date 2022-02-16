@@ -19,4 +19,12 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene(7);
     }
+    public void Credits()
+    {
+        SceneManager.LoadScene(8);
+    }
+    public void Back()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
