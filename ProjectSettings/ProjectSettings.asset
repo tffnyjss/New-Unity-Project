@@ -251,8 +251,8 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/Andrea/Desktop/user.keystore
-  AndroidKeyaliasName: mykey
+  AndroidKeystoreName: C:/Users/jtiff/.android/debug.keystore
+  AndroidKeyaliasName: 
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
@@ -275,7 +275,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: bceb218e2f3a499479edd7f5f50cc40d, type: 3}
+      m_Icon: {fileID: 2800000, guid: bd74146a263931d40bbcaf88bb3f397c, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
