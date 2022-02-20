@@ -16917,7 +16917,7 @@ MonoBehaviour:
   panel: {fileID: 1375492603}
   timeImage: {fileID: 762179479}
   timeText: {fileID: 1420513488}
-  duration: 30
+  duration: 60
   currentTime: 4
   gameover: {fileID: 2029569887}
   sceneone: {fileID: 9089780639612735162}
@@ -38690,7 +38690,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1977133880
 RectTransform:
   m_ObjectHideFlags: 0

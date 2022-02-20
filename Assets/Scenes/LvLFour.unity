@@ -34048,7 +34048,7 @@ MonoBehaviour:
   panel: {fileID: 1084139532}
   timeImage: {fileID: 1393989471}
   timeText: {fileID: 980526303}
-  duration: 30
+  duration: 60
   currentTime: 4
   gameover: {fileID: 2100017475}
   sceneone: {fileID: 812427755}
